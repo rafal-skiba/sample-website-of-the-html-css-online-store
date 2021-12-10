@@ -1,0 +1,199 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(255, 255, 255);
+    margin: 0;
+}
+
+#scroll{
+    margin: 0  auto;
+    width: 1100px;
+    background: rgb(240, 238, 238)
+}
+
+#MainNavigation{
+    background: rgb(31, 37, 65);
+    padding: 10px;
+}
+
+#MainNavigation ul{
+    list-style-type:none;
+    padding: 0;   
+}
+
+#MainNavigation li{
+    display: inline-block;
+    margin-right: 30px;
+}
+
+#MainNavigation a{
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    padding: 6px;
+    
+}
+
+#MainNavigation a.current{
+    background: rgb(58, 97, 226);
+    border-radius: 3px;
+
+}
+
+#MainNavigation ul{
+    display: flex;
+
+}
+
+#MainNavigation li{
+    flex: 1 1 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+a.fb{
+    background: url(fb.png) no-repeat center;
+    background-size: 80%;
+    
+    
+}
+
+a.tw{
+    background: url(tw.png) no-repeat center;
+    background-size: 80%;
+}
+
+.social a{
+    text-indent: -100000px;
+
+}
+
+.social{
+    max-width:130px;
+    
+}
+
+nav ul.social{
+    flex: 1 1 0;
+}
+
+#load-banner{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+#shop {
+    text-align: center;
+    margin: 30px 0;
+    display: block;
+}
+
+#shop1 {
+    text-align: center;
+    margin: 30px 0;
+    display: block;
+}
+
+#shop h3{
+    text-align:center;
+    display: block;
+    background: rgb(31, 37, 65);
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 0;
+}
+
+#shop h2.product-name{
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+#shop1 h2.product-name{
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+#shop span.price {
+    font-size: 50px;
+    display: block;
+}
+
+#shop1 span.price {
+    font-size: 50px;
+    display: block;
+}
+
+#shop a.add-to-bag{
+    display: block;
+    font-size: 12px;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 2px solid rgb(31, 37, 65);
+    width: 210px;
+    padding: 10px;
+    margin: 20px auto;
+    
+}
+
+#shop a.add-to-bag:hover{
+    color: white;
+    background: rgb(31, 37, 65);
+}
+
+#shop1 a.add-to-bag{
+    display: block;
+    font-size: 12px;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 2px solid rgb(31, 37, 65);
+    width: 210px;
+    padding: 10px;
+    margin: 20px auto;
+    
+}
+
+#shop1 a.add-to-bag:hover{
+    color: white;
+    background: rgb(31, 37, 65);
+}
+
+@media screen and (min-width:768px) {
+    
+}
+
+#blocks{
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1100px;
+    margin: 0  auto;
+}
+
+article{
+    background: rgb(240, 238, 238);
+    margin-bottom: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    flex: 1 0 32%;
+}
+
+article h2{
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+
